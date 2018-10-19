@@ -88,7 +88,7 @@ return [
     */
 
     'search'            => [
-        'enabled'       => true,
+        'enabled'       => false,
         'default'       => 'algolia',
         'engines'       => [
             'algolia'   => [
@@ -112,7 +112,7 @@ return [
 
     'repository'   => [
         'provider' => 'github',
-        'url'      => 'https://github.com/saleem-hadad/larecipe'
+        'url'      => 'https://github.com/jmmedel/Laravel_Larecipe'
     ],
 
     /*
@@ -130,7 +130,7 @@ return [
 
     'ui'                 => [
         'show_app_name'  => true,
-        'logo'           => '', // e.g.: /images/logo.svg
+        'logo'           => 'https://i.kinja-img.com/gawker-media/image/upload/s--QmqXkVxi--/c_scale,f_auto,fl_progressive,q_80,w_800/lgaix6s8kkfhwocvxvcc.jpg', // e.g.: /images/logo.svg
         'fav'            => '', // e.g.: /fav.png
         'theme'          => 'light',
         'code'           => 'dark',
