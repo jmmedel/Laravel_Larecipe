@@ -34,7 +34,8 @@ return [
     'versions'      => [
         'default'   => '1.0',
         'published' => [
-            '1.0'
+            '1.0',
+            '2.0'
         ]
     ],
 
@@ -161,15 +162,15 @@ return [
     */
 
     'seo'                 => [
-        'author'          => '',
-        'description'     => '',
-        'keywords'        => '',
+        'author'          => 'kagaya john ',
+        'description'     => 'C tutorial , C Documentation , ProgrammingSulution',
+        'keywords'        => 'C tutorial , C Documentation , ProgrammingSulution',
         'og'              => [
-            'title'       => '',
+            'title'       => 'C Tutorial ',
             'type'        => 'article',
             'url'         => '',
             'image'       => '',
-            'description' => '',
+            'description' => 'C Tutorial',
         ]
     ],
 
