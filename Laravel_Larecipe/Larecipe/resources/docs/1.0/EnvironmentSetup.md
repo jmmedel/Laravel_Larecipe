@@ -2,9 +2,9 @@
 
 ---
 
-- [First Section](#section-1)
+- [Second2](#section-2)
 
-<a name="section-1"></a>
+<a name="section-2"></a>
 ## EnvirontmentSetup
 
 
@@ -55,3 +55,34 @@ While installing Min GW, at a minimum, you must install gcc-core, gcc-g++, binut
 Add the bin subdirectory of your MinGW installation to your PATH environment variable, so that you can specify these tools on the command line by their simple names.
 
 After the installation is complete, you will be able to run gcc, g++, ar, ranlib, dlltool, and several other GNU tools from the Windows command line.
+
+
+
+```C
+
+#include <stdio.h>
+ 
+int main () {
+
+   int n[ 10 ]; /* n is an array of 10 integers */
+   int i,j;
+ 
+   /* initialize elements of array n to 0 */         
+   for ( i = 0; i < 10; i++ ) {
+      n[ i ] = i + 100; /* set element at location i to i + 100 */
+   }
+   
+   /* output each array element's value */
+   for (j = 0; j < 10; j++ ) {
+      printf("Element[%d] = %d\n", j, n[j] );
+   }
+ 
+   return 0;
+}
+
+```
+
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
